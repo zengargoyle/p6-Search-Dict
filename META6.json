@@ -1,0 +1,16 @@
+{
+  "name" : "Search::Dict",
+  "source-url" : "",
+  "perl" : "v6",
+  "build-depends" : [ ],
+  "provides" : {
+    "Search::Dict" : "lib/Search/Dict.pm6"
+  },
+  "depends" : [ ],
+  "description" : "blah blah blah",
+  "test-depends" : [ ],
+  "version" : "*",
+  "authors" : [
+    "zengargoyle"
+  ]
+}
