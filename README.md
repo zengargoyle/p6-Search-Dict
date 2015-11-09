@@ -1,17 +1,36 @@
 NAME
 ====
 
-Search::Dict - blah blah blah
+Search::Dict - a fast binary search of dictionary like files
 
 SYNOPSIS
 ========
 
     use Search::Dict;
 
+    my &lookup = search-dict('/usr/share/dict/words');
+
+    given lookup('existing-word') -> $w {
+      +$w;  # seek offset in dict
+      ?$w;  # True
+      ~$w;  # 'existing-word'
+    }
+    given lookup('non-existing-word') -> $w {
+      +$w;  # seek offset after where non-existing-word would be
+      ?$w;  # False
+      ~$w;  # word after where non-existing-word would be
+      # or
+      $w.match.defined # False  - after last word in dict
+    }
+
 DESCRIPTION
 ===========
 
-Search::Dict is ...
+Search::Dict is a fast binary search of dictionary like files (e.g. /usr/share/dict/words). A dictionary file is one where:
+
+one entry per line
+
+lines are sorted
 
 AUTHOR
 ======
