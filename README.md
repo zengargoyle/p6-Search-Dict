@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/zengargoyle/p6-Search-Dict.svg?branch=master)](https://travis-ci.org/zengargoyle/p6-Search-Dict)
+
 NAME
 ====
 
