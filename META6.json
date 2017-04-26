@@ -1,5 +1,6 @@
 {
   "name" : "Search::Dict",
+  "license" : "Artistic-2.0",
   "source-url" : "git://github.com/zengargoyle/p6-Search-Dict.git",
   "perl" : "v6",
   "build-depends" : [ ],
