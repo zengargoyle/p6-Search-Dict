@@ -14,7 +14,7 @@
   },
   "resources" : [ ],
   "source-url" : "git://github.com/zengargoyle/p6-Search-Dict.git",
-  "tags" : [ ],
+  "tags" : [ "text", "dictionary", "search" ],
   "test-depends" : [ ],
   "version" : "0.2"
 }
