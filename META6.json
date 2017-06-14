@@ -1,4 +1,5 @@
 {
+  "auth" : "github:zengargoyle",
   "authors" : [
     "zengargoyle"
   ],
@@ -15,5 +16,5 @@
   "source-url" : "git://github.com/zengargoyle/p6-Search-Dict.git",
   "tags" : [ ],
   "test-depends" : [ ],
-  "version" : "0.1"
+  "version" : "0.2"
 }

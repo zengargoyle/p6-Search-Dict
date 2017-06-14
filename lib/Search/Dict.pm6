@@ -1,5 +1,5 @@
 use v6;
-unit class Search::Dict;
+unit class Search::Dict:ver<0.2>:auth<github:zengargoyle>;
 
 =begin pod
 
